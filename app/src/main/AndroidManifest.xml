@@ -12,14 +12,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".RecyclerViewActivity"></activity>
-        <activity android:name=".Main2Activity">
+        <activity
+            android:name=".DatosAlumnoActivity"
+            android:label="@string/title_activity_datos_alumno"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".RecyclerViewActivity">
             <intent-filter>
                 <category android:name="android.intent.category.LAUNCHER" />
 
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
+        <activity android:name=".Main2Activity"></activity>
         <activity android:name=".KotlinMainActivity">
             <intent-filter>
                 <category android:name="android.intent.category.LAUNCHER" />
