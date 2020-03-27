@@ -28,7 +28,7 @@ class DatosAlumnoActivity : AppCompatActivity() {
     }
 
     private fun miMetodo() {
-        Toast.makeText(this,"se invoco a mi metodo",Toast.LENGTH_LONG).show()
+        Toast.makeText(this,"se invoco a mi metodo2",Toast.LENGTH_LONG).show()
     }
 
 }
